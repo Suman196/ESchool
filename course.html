@@ -12,7 +12,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            border: 1px solid black;
+            /* border: 1px solid black; */
             margin-top: 50px;
             margin: 50px 200px 0px 200px;
             justify-content: center;
@@ -30,7 +30,7 @@
             margin-top: 100px;
         }
         .explore{
-            border: 1px solid blue;
+            /* border: 1px solid blue; */
             width: 500px;
             margin: 100px;
 
@@ -50,17 +50,22 @@
           background-color: rgb(0, 0, 116);
           height: 200px;
         }
+      
         footer{
-            margin-top: 500px;
-            border: 1px solid black;
-            height: 300px;
-            width: auto;
+            margin-top: 200px;
+            /* border: 1px solid black; */
+            /* height: 300px; */
+            width: 100%;
             padding: 50px;
-            
-            
+            background-color: rgb(224, 224, 224);
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: #444444;
         }
         footer .list-group a{
-            color: black;
+            /* color: black; */
+            color: #444444;
             text-decoration: none;
         }
         .after-course{
@@ -81,7 +86,26 @@
           padding: 25px;
 
         }
+        footer .list-group1 {
+            /* border: 1px solid black; */
+            display:inline-block ;
+            width: 200px;
+            height: 200px;
+            margin-left: 50px;
+
+            margin-top: 2px;
+        }
+        footer .list-group1 a{
+            color: #444444;
+            text-decoration: none;
+        }
+      #discover-h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      } 
+      .list-gro{
+        vertical-align: middle;
         
+      }
     </style>
 </head>
 <body>
@@ -160,10 +184,10 @@
       </div>
     </div>
     <footer>
-      <h3>Popular courses</h3>
+        
 
       <div class="list-group">
-          
+          <h4>Popular courses</h4>
           <a href="#" >Cybersecurity Courses</a>
           <a href="#" >Data Analysis Courses</a>
           <a href="#" >Data Science Courses</a>
@@ -171,8 +195,46 @@
           <a href="#" >Data Science Courses</a>
           <a href="#" >Data Science Courses</a>
           
-        </div>
-  </footer> 
+      </div>
+      <div class="list-group1">
+          <h4>ESchool</h4>
+          <a href="#" >About</a><br>
+          <a href="#" >What We Offer</a><br>
+          <a href="#" >Leadership</a><br>
+          <a href="#" >Careers</a><br>
+          <a href="#" >Catalog</a><br>
+          <a href="#" >ESchool Plus</a>
+          
+          
+      </div>
+      <div class="list-group1">
+          <h4>Community</h4>
+          <a href="#" >Learners</a><br>
+          <a href="#" >Partners</a><br>
+          <a href="#" >Blog</a><br>
+          <a href="#" >The ESchool Podcast</a><br>
+          <a href="#" >Tech Blog</a><br>
+          <a href="#" >Teaching Centre</a>
+          
+          
+      </div>
+      <div class="list-group1">
+          <h4>More</h4>
+          <a href="#" >Press</a><br>
+          <a href="#" >Investors</a><br>
+          <a href="#" >Terms</a><br>
+          <a href="#" >Privacy</a><br>
+          <a href="#" >Help</a><br>
+          <a href="#" >Contacts</a>
+          
+          
+      </div>
+      <div class="list-gro">
+          <img src="playstore.png" alt="" srcset="" width="210px" height="155px">
+          <img src="app store.png" alt="" width="180px" height="55px" >
+          
+      </div>
+  </footer>
     
 </body>
 </html>
